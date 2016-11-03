@@ -1,0 +1,38 @@
+{
+  "name": "sails-hook-grunt",
+  "version": "1.0.0",
+  "description": "The Grunt hook from Sails core in v1.0 and up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -t 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treelinehq/sails-hook-grunt.git"
+  },
+  "keywords": [
+    "grunt",
+    "assets",
+    "automation",
+    "hook",
+    "sails",
+    "sails-hook"
+  ],
+  "author": "Mike McNeil",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://sailsjs.com/bugs"
+  },
+  "homepage": "http://sailsjs.com",
+  "dependencies": {
+    "lodash": "3.10.1"
+  },
+  "sails": {
+    "isHook": true,
+    "hookName": "grunt"
+  },
+  "devDependencies": {
+    "mocha": "3.0.2",
+    "sails": "^1.0.0-5"
+  }
+}
