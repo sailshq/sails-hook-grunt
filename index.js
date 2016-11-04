@@ -4,7 +4,7 @@
 
 var util = require('util');
 var runDefaultTask = require('./lib/run-default-task');
-var runTask = require('./lib/run-task');
+var helpRunTask = require('./lib/help-run-task');
 
 
 /**
@@ -88,7 +88,9 @@ module.exports = function (sails) {
       // console.log('>>>>>> the NEW sails.hooks.grunt.initialize() called.');
 
       // Expose `sails.hooks.grunt.runTask` function.
-      sails.hooks.grunt.runTask = runTask;
+      sails.hooks.grunt.runTask = function (taskName, cb){
+        helpRunTask(sails, taskName, cb);
+      };//</define sails.hooks.grunt.runTask()>
 
       return runDefaultTask(sails, done);
     },
