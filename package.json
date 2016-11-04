@@ -1,5 +1,5 @@
 {
-  "name": "sails-hook-grunt",
+  "name": "@sailshq/sails-hook-grunt",
   "version": "1.0.1",
   "description": "The Grunt hook from Sails core in v1.0 and up.",
   "main": "index.js",
