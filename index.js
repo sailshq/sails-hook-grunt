@@ -85,8 +85,6 @@ module.exports = function (sails) {
      */
     initialize: function (done) {
 
-      // console.log('>>>>>> the NEW sails.hooks.grunt.initialize() called.');
-
       // Expose `sails.hooks.grunt.runTask` function.
       sails.hooks.grunt.runTask = function (taskName, cb){
         helpRunTask(sails, taskName, cb);
