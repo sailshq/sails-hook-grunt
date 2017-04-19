@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-grunt",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "dependencies": {
     "@sailshq/lodash": {
       "version": "3.10.2",
