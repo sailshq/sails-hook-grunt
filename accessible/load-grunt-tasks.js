@@ -45,6 +45,7 @@ module.exports = function loadGruntTasks (appPath, grunt){
     'grunt-sync',
     'grunt-contrib-uglify',
     'grunt-contrib-watch',
+    'grunt-babel'
   ];
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
