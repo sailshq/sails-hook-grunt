@@ -43,7 +43,7 @@ module.exports = function loadGruntTasks (appPath, grunt){
     'grunt-contrib-less',
     'grunt-sails-linker',
     'grunt-sync',
-    'grunt-contrib-uglify',
+    '@sailshq/grunt-contrib-uglify',
     'grunt-contrib-watch',
     'grunt-babel'
   ];
