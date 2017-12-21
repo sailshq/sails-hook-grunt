@@ -2,7 +2,6 @@
  * Module dependencies
  */
 
-var util = require('util');
 var runDefaultTask = require('./lib/run-default-task');
 var helpRunTask = require('./lib/help-run-task');
 

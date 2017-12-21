@@ -4,7 +4,9 @@
   "description": "The Grunt hook from Sails core in v1.0 and up.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha -t 15000"
+    "custom-tests": "node ./node_modules/mocha/bin/mocha -t 15000",
+    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 --ignore-pattern 'test/' && echo '✔  Your code looks good.'",
+    "test": "npm run lint && npm run custom-tests"
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,7 @@
   "keywords": [
     "grunt",
     "assets",
+    "asset-pipeline",
     "automation",
     "hook",
     "sails",
@@ -23,7 +26,7 @@
   "bugs": {
     "url": "http://sailsjs.com/bugs"
   },
-  "homepage": "http://sailsjs.com",
+  "homepage": "https://sailsjs.com",
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
     "babel-core": "6.26.0",
@@ -51,6 +54,7 @@
     "hookName": "grunt"
   },
   "devDependencies": {
+    "eslint": "4.11.0",
     "mocha": "3.0.2"
   }
 }
