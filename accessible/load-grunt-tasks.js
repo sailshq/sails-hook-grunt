@@ -23,7 +23,7 @@ var includeAll = require('include-all');
  * > (The default Gruntfile.js calls this function directly-- this is
  * > partially to make it easy to do any major customizations directly
  * > in that file.  But more importantly, it's because Grunt doesn't work
- * > without it.  At least not as of November, 2016.)
+ * > without it.  At least not as of November, 2016.  Or as of Feb 2018.)
  *
  * @param {String} appPath
  * @param {Ref} grunt
@@ -41,6 +41,7 @@ module.exports = function loadGruntTasks (appPath, grunt){
     'grunt-contrib-cssmin',
     'grunt-contrib-jst',
     'grunt-contrib-less',
+    'grunt-hash',
     'grunt-sails-linker',
     'grunt-sync',
     '@sailshq/grunt-contrib-uglify',
