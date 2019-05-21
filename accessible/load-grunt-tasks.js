@@ -35,11 +35,9 @@ module.exports = function loadGruntTasks (appPath, grunt){
   // ========================================================
   var BUILT_IN_GRUNT_PLUGINS = [
     'grunt-contrib-clean',
-    'grunt-contrib-coffee',
     'grunt-contrib-concat',
     'grunt-contrib-copy',
     'grunt-contrib-cssmin',
-    'grunt-contrib-jst',
     'grunt-contrib-less',
     'grunt-hash',
     'grunt-sails-linker',
