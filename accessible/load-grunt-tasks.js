@@ -30,13 +30,6 @@ var includeAll = require('include-all');
  */
 module.exports = function loadGruntTasks (appPath, grunt){
 
-  // Verify that reviously-built-in-but-no-longer-included-by-default Grunt plugins:
-  // ========================================================
-  var NO_LONGER_BUILT_IN_GRUNT_PLUGINS = [
-    'grunt-contrib-jst',
-    'grunt-contrib-coffee'
-  ];
-
 
   // Load built-in Grunt plugins.
   // ========================================================
