@@ -62,11 +62,6 @@ module.exports = function (sails) {
      */
     defaults: {
 
-      // 2 minutes.  You get 2 minutes.
-      grunt: {
-        _hookTimeout: 120000
-      }
-
     },
 
 
