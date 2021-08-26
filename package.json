@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-grunt",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "The Grunt hook from Sails core in v1.0 and up.",
   "main": "index.js",
   "scripts": {
