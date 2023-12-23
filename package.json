@@ -4,7 +4,7 @@
   "description": "The Grunt hook from Sails core in v1.0 and up.",
   "main": "index.js",
   "scripts": {
-    "custom-tests": "node ./node_modules/mocha/bin/mocha && echo \"Custom tests all passed.\" && echo",
+    "custom-tests": "node ./node_modules/mocha/bin/mocha --recursive --timeout 10000 && echo \"Custom tests all passed.\" && echo",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "test": "npm run lint && npm run custom-tests"
   },
