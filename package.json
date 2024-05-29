@@ -28,11 +28,11 @@
   },
   "homepage": "https://sailsjs.com",
   "dependencies": {
+    "@babel/preset-env": "^7.14.4",
     "@sailshq/grunt-contrib-uglify": "^3.2.1",
     "@sailshq/lodash": "^3.10.2",
     "babel-core": "6.26.3",
     "babel-polyfill": "6.26.0",
-    "babel-preset-env": "1.7.0",
     "chalk": "1.1.3",
     "grunt": "1.0.4",
     "grunt-babel": "7.0.0",
