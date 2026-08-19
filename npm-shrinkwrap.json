@@ -726,9 +726,9 @@
       }
     },
     "brace-expansion": {
-      "version": "1.1.11",
-      "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",
-      "integrity": "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==",
+      "version": "1.1.18",
+      "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.18.tgz",
+      "integrity": "sha512-Edep/X9fGqVNmzKBVsDYIOtD+z1tuezV70LBjdCst9Tqu76lsnvRiZ6oTic1n+/BIwX6QDGAO94PN4N2SADvtw==",
       "requires": {
         "balanced-match": "^1.0.0",
         "concat-map": "0.0.1"
@@ -1618,9 +1618,9 @@
       "integrity": "sha1-mGbfOVECEw449/mWvOtlRDIJwls="
     },
     "js-yaml": {
-      "version": "3.13.1",
-      "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.13.1.tgz",
-      "integrity": "sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==",
+      "version": "3.15.1",
+      "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-3.15.1.tgz",
+      "integrity": "sha512-S99WuO3HlhO3XN41EtYUNl9zzXjoJx7QvmipxsJVxtCBT0YHEFy+iOJhjSvrmV12nYhWpZaM8lPHkJm0yUMbag==",
       "requires": {
         "argparse": "^1.0.7",
         "esprima": "^4.0.0"
